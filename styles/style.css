@@ -1,0 +1,30 @@
+html {
+    font-family: monospace;
+}
+
+ul {
+    list-style-type: none;
+    margin: 5% 10%;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1vw;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+main {
+    margin: 10%;
+}
