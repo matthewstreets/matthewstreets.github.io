@@ -1,23 +1,36 @@
 html {
-    font-family: monospace;
+    font-family: sans-serif;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 5% 10%;
+    margin: 5% 5%;
     padding: 0;
     overflow: hidden;
 }
 
 nav li {
     float: right;
+    font-size: 1.7vw;
 }
 
 nav li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 1vw;
+    padding: 1vh;
+}
+
+li {
+    font-size: 1.5vw;
+}
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 4vw;
 }
 
 h1 a {
@@ -30,11 +43,22 @@ h1 a:hover {
     color: white;
 }
 
-li a:hover {
-    background-color: black;
-    color: white;
+h2 {
+    font-size: 3vw;
+}
+
+h3 {
+    font-size: 2.5vw;
+}
+
+p {
+    font-size: 1.5vw;
 }
 
 main {
-    margin: 10%;
+    margin: 5%;
+}
+
+.headline {
+    font-size: 2vw;
 }
