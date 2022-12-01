@@ -2,6 +2,16 @@ html {
     font-family: sans-serif;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: red;
+    color: white;
+}
+
 nav ul {
     list-style-type: none;
     margin: 5% 5%;
@@ -11,18 +21,18 @@ nav ul {
 
 nav li {
     float: right;
-    font-size: 1.7vw;
+    font-size: 1.5em;
 }
 
 nav li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 1vh;
+    padding: 1em;
 }
 
 li {
-    font-size: 1.5vw;
+    font-size: 1.5em;
 }
 li a:hover {
     background-color: black;
@@ -30,7 +40,7 @@ li a:hover {
 }
 
 h1 {
-    font-size: 4vw;
+    font-size: 5em;
 }
 
 h1 a {
@@ -44,15 +54,15 @@ h1 a:hover {
 }
 
 h2 {
-    font-size: 3vw;
+    font-size: 3em;
 }
 
 h3 {
-    font-size: 2.5vw;
+    font-size: 2.5em;
 }
 
 p {
-    font-size: 1.5vw;
+    font-size: 2em;
 }
 
 main {
@@ -60,5 +70,5 @@ main {
 }
 
 .headline {
-    font-size: 2vw;
+    font-size: 2em;
 }
