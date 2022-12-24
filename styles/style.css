@@ -32,7 +32,11 @@ nav a {
 
 @media screen and (max-width: 700px) {
     nav {
-        flex-direction: column;
+        max-width: 100%;
+        justify-content: center;
+    }
+    main {
+        text-align: center;
     }
 }
 
