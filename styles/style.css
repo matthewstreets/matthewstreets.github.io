@@ -12,28 +12,30 @@ a:hover {
     color: white;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 5% 5%;
-    padding: 0;
-    overflow: hidden;
+nav {
+    display: flex;
+    justify-content: right;
+    margin: 5%;
 }
 
-nav li {
-    float: right;
+nav a {
     font-size: 1.5em;
-}
-
-nav li a {
     display: block;
     color: black;
     text-align: center;
     padding: 1em;
 }
 
+@media screen and (max-width: 700px) {
+    nav {
+        flex-direction: column;
+    }
+}
+
 li {
     font-size: 1.5em;
 }
+
 li a:hover {
     background-color: black;
     color: white;
