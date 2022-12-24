@@ -7,14 +7,8 @@ body {
     color: #2E2E2E;
 }
 
-a {
-    color: #2E2E2E;
-    text-decoration: none;
-}
-
-a:hover {
-    background-color: #2E2E2E;
-    color: #F4F2F0;
+main {
+    margin: 5%;
 }
 
 nav {
@@ -37,6 +31,9 @@ nav a {
     }
     main {
         text-align: center;
+    }
+    ul {
+        padding: 0;
     }
 }
 
@@ -65,8 +62,18 @@ p {
     font-size: 2em;
 }
 
-main {
-    margin: 5%;
+a {
+    color: #2E2E2E;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #2E2E2E;
+    color: #F4F2F0;
+}
+
+ul {
+    font-size: 1.5em;
 }
 
 .headline {
