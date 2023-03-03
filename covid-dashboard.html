@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Matthew Streets</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bellefair">
+        <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+        <link rel="stylesheet" href="styles/style.css">
+        <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    </head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J9Y96N3BEH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-J9Y96N3BEH');
+    </script>
+    <body>
+        <py-config>
+            packages = ['matplotlib', 'pandas', 'seaborn']
+        </py-config>
+
+        <main>
+            <h1>Dashboard</h1>
+            <p>The purpose of this page is to test the capabilities of PyScript and further understand the type of output it allows.</p>
+        </main>
+
+        <py-script>
+            import pandas as pd
+
+            from pyodide.http import open_url
+            
+            url = ('https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv')
+
+            iris = pd.read_csv(open_url(url))
+            
+            print(iris.describe())
+        </py-script>
+
+    </body>
+
+</html>
