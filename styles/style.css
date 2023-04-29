@@ -1,0 +1,39 @@
+.styled-one, .styled-two {
+    list-style: none;
+}
+
+.styled-one li::before {
+    content: '🐍 ';
+}
+
+.styled-one li:nth-child(2)::before {
+    content: '🐼 ';
+}
+
+.styled-one li:nth-child(3)::before {
+    content: '☁️ ';
+}
+
+.styled-two li::before {
+    content: '🖼️ ';
+}
+
+.styled-two li:nth-child(2)::before {
+    content: '📖 ';
+}
+
+.styled-two li:nth-child(3)::before {
+    content: '💾 ';
+}
+
+.styled-two li:nth-child(4)::before {
+    content: '🏃🏼‍♂️ ';
+}
+
+.styled-two li:nth-child(5)::before {
+    content: '⌨️ ';
+}
+
+.styled-two li:nth-child(6)::before {
+    content: '🇩🇪 ';
+}
