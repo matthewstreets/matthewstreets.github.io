@@ -1,4 +1,6 @@
-
+li {
+    margin: 10px 0;
+}
 .styled-one, .styled-two {
     list-style: none;
 }
