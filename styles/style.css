@@ -1,3 +1,4 @@
+
 .styled-one, .styled-two {
     list-style: none;
 }
@@ -35,5 +36,5 @@
 }
 
 .styled-two li:nth-child(6)::before {
-    content: '🇩🇪 ';
+    content: '🇫🇮 ';
 }
