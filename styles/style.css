@@ -1,9 +1,8 @@
-html {
+html, body {
     background: #0000ff;
     font-family: 'Space Grotesk';
     font-size: 16px;
     color: white;
-    margin: 30px;
 
     & a {
         color: white;
@@ -53,6 +52,7 @@ nav {
     height: 60px;
     padding: 0 1rem 0 1rem;
     font-size: 1.2rem; 
+    margin: 30px;
 
     & .brand {
         display: flex;
@@ -145,6 +145,11 @@ nav {
 }
 
 main {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
     & .socials {
         display: flex;
         gap: 2rem;
@@ -203,9 +208,18 @@ main {
     }
 }
 
+@keyframes scrollBanner {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
 
 /* larger screens */
 @media screen and (min-width: 800px) {
+
     h3 {
         margin-top: 0;
     }
@@ -214,12 +228,22 @@ main {
         margin: 3.75rem;
     }
 
+
     #p-1 {
         margin-top: 0.6rem;
     }
     
     .ham {
         display: none;
+    }
+
+    .lottie-top {
+        display: none;
+    }
+
+    dotlottie-player {
+        margin-left: auto;
+        padding-bottom: 0;
     }
 
     .flex-container {
@@ -245,6 +269,14 @@ main {
         & ul {
             display: none;
         }
+    }
+
+    .lottie-bottom {
+        display: none;
+    }
+
+    dotlottie-player {
+        margin: auto;
     }
 
     .socials {
