@@ -179,33 +179,6 @@ main {
         0 0 50px rgba(255, 255, 255, 0.8),
         0 0 60px rgba(255, 255, 255, 0.8)
     }
-
-    & .card-column {
-        display: flex;
-        align-items: stretch;
-    }
-
-    & .card {
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        background: rgba(255, 255, 255, 0.16);
-        border-radius: 25px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(10.2px);
-        -webkit-backdrop-filter: blur(10.2px);
-        font: inherit;
-        color: inherit;
-        text-align: center;
-        text-decoration: none;
-        padding: 1.5rem;
-
-        & h4 {
-            margin: 1rem;
-        }
-
-        & img {
-            width: 90%;
-        }
-    }
 }
 
 @keyframes scrollBanner {
